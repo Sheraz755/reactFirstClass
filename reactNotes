@@ -10,3 +10,5 @@ https://nodejs.org/en/download/prebuilt-installer/current download node js
 
 react fragments
 functional component
+
+npm create vite@latest
