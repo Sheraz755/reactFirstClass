@@ -2,22 +2,14 @@ import "./App.css";
 import FirstComponent from "./FirstComponent/FirstComponent";
 
 const App = () => {
-	// const add = (a, b) => {
-	// 	return a + b;
-	// };
-	// console.log(add(1, 2));
-	// console.log(add(10, 21));
-
+	//props full form property
+	const myName = "sheraz";
 	return (
 		<div>
-			<FirstComponent />
-			{/* <FirstComponent />
-
-			<FirstComponent />
-
-			<FirstComponent /> */}
+			<FirstComponent name={myName} />
 		</div>
 	);
 };
 
 export default App;
+//virtual dom
