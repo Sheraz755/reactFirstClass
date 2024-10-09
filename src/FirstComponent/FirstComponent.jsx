@@ -1,10 +1,10 @@
 import React from "react";
+import SecondComponent from "./SecondComponent";
 
 const FirstComponent = ({ name }) => {
 	return (
 		<div>
-			<div className='firstHeading'>hello shahzad</div>
-			<div>How are you {name}</div>
+			<h1 className='text-3xl font-bold underline'>Hello world!</h1>
 		</div>
 	);
 };

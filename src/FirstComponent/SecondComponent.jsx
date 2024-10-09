@@ -1,7 +1,7 @@
 import React from "react";
 
-const SecondComponent = () => {
-	return <div>I m fine</div>;
+const SecondComponent = ({ name }) => {
+	return <div>I m fine {name}</div>;
 };
 
 export default SecondComponent;
